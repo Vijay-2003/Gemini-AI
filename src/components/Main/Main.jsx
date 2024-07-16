@@ -30,7 +30,7 @@ const Main = () => {
               <p>How Can I Help You Today?</p>
             </div>
 
-            <div className="cards">
+            <div className="cards text-white">
               <div className="card">
                 <p>Suggest Beautiful Places to see on an upcoming road trip</p>
                 <img src={assets.compass_icon} alt="Compass Icon" />
@@ -53,7 +53,7 @@ const Main = () => {
           <div className="result">
             <div className="result-title">
               <img src={assets.user_icon} alt="User_Icon" />
-              <p>{recentPrompt}</p>
+              <p className=" text-white">{recentPrompt}</p>
             </div>
 
             <div className="result-data">
@@ -65,7 +65,7 @@ const Main = () => {
                   <hr />
                 </div>
               ) : (
-                <p dangerouslySetInnerHTML={{ __html: resultData }}></p>
+                <p className=" text-white" dangerouslySetInnerHTML={{ __html: resultData }}></p>
               )}
             </div>
           </div>
@@ -92,7 +92,7 @@ const Main = () => {
             </div>
           </div>
 
-          <p className="bottom-info">
+          <p className="bottom-info text-white">
             Gemini may display inaccurate information about the prompt. So
             double-check it's response.
           </p>
