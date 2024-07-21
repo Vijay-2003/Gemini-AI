@@ -17,7 +17,7 @@ const Main = () => {
   return (
     <div className=" main">
       <div className=" nav">
-        <p>Gemini</p>
+        <p>RougeAI</p>
         <img src={assets.user_icon} alt="User Icon" />
       </div>
       <div className=" main-container">
